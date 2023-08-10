@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário da Loja D-Assis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header class="cabecalho">
+        <p>Formulário D-Assis</p>
+    </header>
+<body>
+    <form>
+        <fieldset class="comeco">
+            <!--Nome-->
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <br>
+            <!--Endereço; número da casa e bairro-->
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" required>
+                <label for="numero">Número:</label>
+                <input type="tel" name="numero" id="numero" required>
+                <label for="bairro">Bairro:</label>
+                <input type="text" name="bairro" id="bairro" required>
+            </div>
+            <br>
+            <!--Telefone-->
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required>
+            <!--E-mail-->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <!--UF-->
+            <div class="uf">
+                <label for="uf">Qual UF você reside?</label>
+               <select id="uf" required>
+                <option>Selecione uma opção</option>
+                <option> Acre (AC)</option>
+                <option> Alagoas (AL)</option>
+                <option> Amapá (AP)</option>
+                <option> Amazonas (AM)</option>
+                <option> Bahia (BA)</option>
+                <option> Ceará (CE)</option>
+                <option> Distrito Federal (DF)</option>
+                <option> Espírito Santo (ES)</option>
+                <option> Goiás (GO)</option>
+                <option> Maranhão (MA)</option>
+                <option> Mato Grosso (MT)</option>
+                <option> Mato Grosso do Sul (MS)</option>
+                <option> Minas Gerais (MG)</option>
+                <option> Pará (PA)</option>
+                <option> Paraíba (PB)</option>
+                <option> Paraná (PR)</option>
+                <option> Pernambuco (PE)</option>
+                <option> Piauí (PI)</option>
+                <option> Rio de Janeiro (RJ)</option>
+                <option> Rio Grande do Norte (RN)</option>
+                <option> Rio Grande do Sul (RS)</option>
+                <option> Rondônia (RO)</option>
+                <option> Roraima (RR)</option>
+                <option> Santa Catarina (SC)</option>
+                <option> São Paulo (SP)</option>
+                <option> Sergipe (SE)</option>
+                <option> Tocantins (TO)</option>
+               </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="perguntas">
+            <div class="radio">
+                <label>Qual marca você mais gosta?</label>
+                <label>
+                    <input type="radio" name="marca" value="adidas">Adidas
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="nike">Nike
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="vans">Vans
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="olympikus">Olympikus
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="fila">Fila
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="louisvitton">Louis Vitton
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="todas">Todas marcas
+                </label>
+                <label>
+                    <input type="radio" name="marca" value="outras">Outras marcas
+                </label>
+            </div>
+            <br>
+
+            <div class="checkbox">
+                <label>Você prefere que tipo de tênis?</label>
+                <input type="checkbox" id="tenis" name="tenis" value="tenis">
+                <label for="social">Social</label>
+                <input type="checkbox" id="tenis" name="tenis" value="tenis">
+                <label for="esportivo">Esportivo</label>
+            </div>
+            <br>
+
+            <div class="radio">
+                <label>Você prefere tênis:</label>
+                <label>
+                    <input type="radio" name="cor" value="neutra">De cores neutras
+                </label>
+                <label>
+                    <input type="radio" name="cor" value="colorido">De cores mais chamativas
+                </label>
+            </div>
+            <br>
+            <div class="checkbox">
+                <label>Gostou do atendimento da nossa loja?</label>
+                <input type="checkbox" id="avaliacao" name="avaliacao" value="avaliacao">
+                <label for="sim">Sim, achei atenciosos!</label>
+                <input type="checkbox" id="avaliacao" name="avaliacao" value="avaliacao">
+                <label for="nao">Não, achei o serviço ruim!</label>
+            </div>
+            <br>
+            <div class="comentarios">
+                <label for="comentario">O que pode ser melhorado?</label>
+                <textarea rows="5" style="width: 26em;" id="comentario" name="comentario"></textarea>
+                
+            </div>
+
+        </fieldset>
+        <br>
+        <!--Botão de enviar-->
+        <div class="button">
+        <button type="submit" onsubmit="">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

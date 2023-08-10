@@ -1,0 +1,40 @@
+*{margin: 0;
+padding: 0;}
+form{background-color: #abdbe3;}
+body{background-color: #76b5c5;}
+
+.comeco{font-size: 20px;
+font-family: Arial;}
+
+.uf{font-size: 20px;
+font-family: Arial;}
+.uf select option{font-size: 18px;}
+.radio{font-size: 18px;
+font-family: Arial;}
+
+.checkbox{font-size: 18px;
+    font-family: Arial;}
+
+button{background: #1e81b0;
+border: 5px solid;
+border-style: outset;
+border-color: #1e81b0;
+text-align: center;
+font-size: 30px;
+font-family: 'Times New Roman';
+margin: 1% 44% 1% 44%;
+padding: 0% 4% 0% 4%;
+color: white
+}
+
+
+
+.comentarios{font-size: 18px;
+font-family: Arial;}
+
+.cabecalho{padding: 18px;
+background-color:#1e81b0; 
+text-align: center;
+font-size: 28px;
+font-family: 'Times New Roman';
+color:white;}
